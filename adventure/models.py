@@ -42,8 +42,8 @@ class Channel(models.Model):
     glitch = models.CharField(max_length=500, default="")
     audio = models.CharField(max_length=500, default="")
     text = models.CharField(max_length=500, default="")
-    up_to = IntergersField(default=0)
-    down_to = IntergersField(default=0)
+    up_to = IntegersField(default=0)
+    down_to = IntegersField(default=0)
 
 class Player(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
