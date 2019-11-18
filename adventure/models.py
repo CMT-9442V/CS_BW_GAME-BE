@@ -37,8 +37,8 @@ import uuid
 #         return [p.uuid for p in Player.objects.filter(currentRoom=self.id) if p.id != int(currentPlayerID)]
 class Channel(models.Model):
     number = models.IntegerField(default=0)
-    background = models.CharField(default="")
-    geometry = models.CharField(default="")
+    background = models.CharField(max_length=500, default="")
+    geometry = models.CharField(max_length=500, default="")
     glitch = models.CharField(max_length=500, default="")
     audio = models.CharField(max_length=500, default="")
     text = models.CharField(max_length=500, default="")
