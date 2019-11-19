@@ -36,29 +36,48 @@ import uuid
 #     def playerUUIDs(self, currentPlayerID):
 #         return [p.uuid for p in Player.objects.filter(currentRoom=self.id) if p.id != int(currentPlayerID)]
 class Channel(models.Model):
-    number = models.IntegerField(default=0)
+    channel = models.IntegerField(default=0)
     background = models.CharField(max_length=500, default="")
     geometry = models.CharField(max_length=500, default="")
-    glitch = models.CharField(max_length=500, default="")
+    glitchtype = models.CharField(max_length=500, default="")
     audio = models.CharField(max_length=500, default="")
     text = models.CharField(max_length=500, default="")
     up_to = models.IntegerField(default=0)
     down_to = models.IntegerField(default=0)
+    def connectChannels(self, destinationChannel, direction):
+        destinationChannelID = destinationChannel.id
+        try:
+            destinationChannel = Channel.objects.get(id=destinationChannelID)
+        except Channel.DoesNotExist:
+            print("That channel does not exist")
+        else:
+            if direction == "u":
+                self.n_to = destinationChannelID
+            elif direction == "d":
+                self.s_to = destinationChannelID
+            else:
+                print("Invalid direction")
+                return
+            self.save()
+    def playerNames(self, currentPlayerID):
+        return [p.user.username for p in Player.objects.filter(currentChannel=self.id) if p.id != int(currentPlayerID)]
+    def playerUUIDs(self, currentPlayerID):
+        return [p.uuid for p in Player.objects.filter(currentChannel=self.id) if p.id != int(currentPlayerID)]
 
 class Player(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    currentRoom = models.IntegerField(default=0)
+    currentChannel = models.IntegerField(default=0)
     uuid = models.UUIDField(default=uuid.uuid4, unique=True)
     def initialize(self):
-        if self.currentRoom == 0:
-            self.currentRoom = Room.objects.first().id
+        if self.currentChannel== 0:
+            self.currentChannel = Channel.objects.first().id
             self.save()
-    def room(self):
+    def channel(self):
         try:
-            return Room.objects.get(id=self.currentRoom)
-        except Room.DoesNotExist:
+            return Channel.objects.get(id=self.currentChannel)
+        except Channel.DoesNotExist:
             self.initialize()
-            return self.room()
+            return self.channel()
 
 @receiver(post_save, sender=User)
 def create_user_player(sender, instance, created, **kwargs):
