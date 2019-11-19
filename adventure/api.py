@@ -10,7 +10,6 @@ import json
 
 # instantiate pusher
 # pusher = Pusher(app_id=config('PUSHER_APP_ID'), key=config('PUSHER_KEY'), secret=config('PUSHER_SECRET'), cluster=config('PUSHER_CLUSTER'))
-
 @csrf_exempt
 @api_view(["GET"])
 def initialize(request):
@@ -20,8 +19,35 @@ def initialize(request):
     # uuid = player.uuid
     # room = player.room()
     # players = room.playerNames(player_id)
-    return JsonResponse({'title':room.title, 'description':room.description, 'players':players}, safe=True)
+    channel=Channel.objects.get(channel=00)
+    return JsonResponse({'id': channel.id, 'channel':channel.channel, 'background': channel.background, 'audio': channel.audio, 'geometry': channel.geometry, 'glitchtype': channel.glitchtype, 'text':channel.text, 'error_msg':""}, safe=True)
 
+# @api_view(["GET"])
+# def channels(request):
+#     channels = Channel.objects.all()
+#     result = {
+#       "channel": 0,
+#       "background": "someUrl",
+#       "geometry": "squarr",
+#       "glitchtype": "banana",
+#       "audio": "banananana",
+#       "text": "anabana",
+#       "up_to": 2,
+#       "down_to": 0
+#     }
+#     # for channel in channels:
+#     #     result.append(chann)
+#     # json.loads(result)
+#     return JsonResponse(result, safe=True)
+# ==========================================
+@api_view(["GET"])
+def channels(request):
+    channels = Channel.objects.all()
+    result = ''
+    for channel in channels:
+        result += channel.__repr__() + ', '
+    return JsonResponse({'channels': result}, safe=True)
+# ==========================================
 
 # @csrf_exempt
 @api_view(["POST"])
@@ -30,7 +56,7 @@ def move(request):
     direction = str(request.data["direction"])
     curChannel = Channel.objects.get(id=channel_id)
     nextChannelID = None
-    if direction == "u"
+    if direction == "u":
         nextChannelID = curChannel.up_to
     elif direction == "d":
         nextChannelID = curChannel.down_to
