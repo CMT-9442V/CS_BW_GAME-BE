@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\phil7\\.virtualenvs\\CS_BW_GAME-BE-pVd119_k\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\phil7\\.virtualenvs\\CS_BW_GAME-BE-pVd119_k\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }
