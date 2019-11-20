@@ -43,10 +43,14 @@ def initialize(request):
 @api_view(["GET"])
 def channels(request):
     channels = Channel.objects.all()
-    result = ''
-    for channel in channels:
-        result += channel.__repr__() + ', '
-    return JsonResponse({'channels': result}, safe=True)
+    # result = ''
+    # for channel in channels:
+    #     result += channel.__repr__() + ', '
+    # return JsonResponse({'channels': result}, safe=True)
+    results = [obj.to_dict() for obj in channels]
+    # print("------------------STUFF------------------", results)
+    jsdata = json.dumps({"results": results})
+    return JsonResponse(results, safe=False)
 # ==========================================
 
 # @csrf_exempt
