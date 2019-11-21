@@ -3,28 +3,28 @@
     "model": "adventure.channel",
     "pk": 1,
     "fields": {
-      "channel": 0,
-      "background": "someUrl",
-      "geometry": "squarr",
-      "glitchtype": "banana",
-      "audio": "banananana",
-      "text": "anabana",
-      "up_to": 2,
-      "down_to": 0
-    }
-  },
-  {
-    "model": "adventure.channel",
-    "pk": 2,
-    "fields": {
       "channel": 1,
       "background": "someUrl",
       "geometry": "someUrl",
       "glitchtype": "someUrl",
       "audio": "someUrl",
       "text": "someUrl",
-      "up_to": 1,
-      "down_to": 0
+      "up_to": 2,
+      "down_to": 100
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 2,
+    "fields": {
+      "channel": 2,
+      "background": "someUrl",
+      "geometry": "someUrl",
+      "glitchtype": "someUrl",
+      "audio": "someUrl",
+      "text": "someUrl",
+      "up_to": 3,
+      "down_to": 1
     }
   },
   {
@@ -37,8 +37,8 @@
       "glitchtype": "asd",
       "audio": "asd",
       "text": "asd",
-      "up_to": 3,
-      "down_to": 1
+      "up_to": 4,
+      "down_to": 2
     }
   },
   {
@@ -51,8 +51,8 @@
       "glitchtype": "asd",
       "audio": "asd",
       "text": "asd",
-      "up_to": 4,
-      "down_to": 2
+      "up_to": 5,
+      "down_to": 3
     }
   },
   {
@@ -79,8 +79,8 @@
       "glitchtype": "asd",
       "audio": "asd",
       "text": "asd",
-      "up_to": 6,
-      "down_to": 4
+      "up_to": 7,
+      "down_to": 5
     }
   },
   {
@@ -93,8 +93,8 @@
       "glitchtype": "asd",
       "audio": "asd",
       "text": "asd",
-      "up_to": 6,
-      "down_to": 4
+      "up_to": 8,
+      "down_to": 6
     }
   },
   {
@@ -107,8 +107,8 @@
       "glitchtype": "asd",
       "audio": "asd",
       "text": "asd",
-      "up_to": 6,
-      "down_to": 4
+      "up_to": 9,
+      "down_to": 7
     }
   },
   {
@@ -121,8 +121,8 @@
       "glitchtype": "asd",
       "audio": "asd",
       "text": "asd",
-      "up_to": 6,
-      "down_to": 4
+      "up_to": 10,
+      "down_to": 9
     }
   },
   {
@@ -135,8 +135,1268 @@
       "glitchtype": "asd",
       "audio": "asd",
       "text": "asd",
-      "up_to": 6,
-      "down_to": 4
+      "up_to": 11,
+      "down_to": 9
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 11,
+    "fields": {
+      "channel": 11,
+      "background": "someUrl",
+      "geometry": "squarr",
+      "glitchtype": "banana",
+      "audio": "banananana",
+      "text": "anabana",
+      "up_to": 12,
+      "down_to": 10
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 12,
+    "fields": {
+      "channel": 12,
+      "background": "someUrl",
+      "geometry": "someUrl",
+      "glitchtype": "someUrl",
+      "audio": "someUrl",
+      "text": "someUrl",
+      "up_to": 13,
+      "down_to": 12
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 13,
+    "fields": {
+      "channel": 13,
+      "background": "asd",
+      "geometry": "awsd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 14,
+      "down_to": 12
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 14,
+    "fields": {
+      "channel": 14,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 15,
+      "down_to": 13
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 15,
+    "fields": {
+      "channel": 15,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 16,
+      "down_to": 14
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 16,
+    "fields": {
+      "channel": 16,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 17,
+      "down_to": 15
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 17,
+    "fields": {
+      "channel": 17,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 18,
+      "down_to": 16
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 18,
+    "fields": {
+      "channel": 18,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 19,
+      "down_to": 17
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 19,
+    "fields": {
+      "channel": 19,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 20,
+      "down_to": 18
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 20,
+    "fields": {
+      "channel": 20,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 21,
+      "down_to": 19
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 21,
+    "fields": {
+      "channel": 21,
+      "background": "someUrl",
+      "geometry": "squarr",
+      "glitchtype": "banana",
+      "audio": "banananana",
+      "text": "anabana",
+      "up_to": 22,
+      "down_to": 20
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 22,
+    "fields": {
+      "channel": 22,
+      "background": "someUrl",
+      "geometry": "someUrl",
+      "glitchtype": "someUrl",
+      "audio": "someUrl",
+      "text": "someUrl",
+      "up_to": 23,
+      "down_to": 21
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 23,
+    "fields": {
+      "channel": 23,
+      "background": "asd",
+      "geometry": "awsd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 24,
+      "down_to": 22
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 24,
+    "fields": {
+      "channel": 24,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 25,
+      "down_to": 23
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 25,
+    "fields": {
+      "channel": 25,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 26,
+      "down_to": 24
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 26,
+    "fields": {
+      "channel": 26,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 27,
+      "down_to": 25
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 27,
+    "fields": {
+      "channel": 27,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 28,
+      "down_to": 26
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 28,
+    "fields": {
+      "channel": 28,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 29,
+      "down_to": 27
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 29,
+    "fields": {
+      "channel": 29,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 30,
+      "down_to": 28
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 30,
+    "fields": {
+      "channel": 30,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 31,
+      "down_to": 29
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 31,
+    "fields": {
+      "channel": 31,
+      "background": "someUrl",
+      "geometry": "squarr",
+      "glitchtype": "banana",
+      "audio": "banananana",
+      "text": "anabana",
+      "up_to": 32,
+      "down_to": 30
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 32,
+    "fields": {
+      "channel": 32,
+      "background": "someUrl",
+      "geometry": "someUrl",
+      "glitchtype": "someUrl",
+      "audio": "someUrl",
+      "text": "someUrl",
+      "up_to": 33,
+      "down_to": 31
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 33,
+    "fields": {
+      "channel": 33,
+      "background": "asd",
+      "geometry": "awsd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 34,
+      "down_to": 32
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 34,
+    "fields": {
+      "channel": 34,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 35,
+      "down_to": 33
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 35,
+    "fields": {
+      "channel": 35,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 36,
+      "down_to": 34
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 36,
+    "fields": {
+      "channel": 36,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 37,
+      "down_to": 35
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 37,
+    "fields": {
+      "channel": 37,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 38,
+      "down_to": 36
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 38,
+    "fields": {
+      "channel": 38,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 39,
+      "down_to": 37
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 39,
+    "fields": {
+      "channel": 39,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 40,
+      "down_to": 38
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 40,
+    "fields": {
+      "channel": 40,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 41,
+      "down_to": 39
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 41,
+    "fields": {
+      "channel": 41,
+      "background": "someUrl",
+      "geometry": "squarr",
+      "glitchtype": "banana",
+      "audio": "banananana",
+      "text": "anabana",
+      "up_to": 42,
+      "down_to": 40
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 42,
+    "fields": {
+      "channel": 42,
+      "background": "someUrl",
+      "geometry": "someUrl",
+      "glitchtype": "someUrl",
+      "audio": "someUrl",
+      "text": "someUrl",
+      "up_to": 43,
+      "down_to": 41
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 43,
+    "fields": {
+      "channel": 43,
+      "background": "asd",
+      "geometry": "awsd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 44,
+      "down_to": 42
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 44,
+    "fields": {
+      "channel": 44,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 45,
+      "down_to": 43
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 45,
+    "fields": {
+      "channel": 45,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 46,
+      "down_to": 44
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 46,
+    "fields": {
+      "channel": 46,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 47,
+      "down_to": 45
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 47,
+    "fields": {
+      "channel": 47,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 48,
+      "down_to": 46
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 48,
+    "fields": {
+      "channel": 48,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 49,
+      "down_to": 47
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 49,
+    "fields": {
+      "channel": 49,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 50,
+      "down_to": 48
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 50,
+    "fields": {
+      "channel": 50,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 51,
+      "down_to": 49
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 51,
+    "fields": {
+      "channel": 51,
+      "background": "someUrl",
+      "geometry": "squarr",
+      "glitchtype": "banana",
+      "audio": "banananana",
+      "text": "anabana",
+      "up_to": 52,
+      "down_to": 50
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 52,
+    "fields": {
+      "channel": 52,
+      "background": "someUrl",
+      "geometry": "someUrl",
+      "glitchtype": "someUrl",
+      "audio": "someUrl",
+      "text": "someUrl",
+      "up_to": 53,
+      "down_to": 51
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 53,
+    "fields": {
+      "channel": 53,
+      "background": "asd",
+      "geometry": "awsd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 54,
+      "down_to": 53
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 54,
+    "fields": {
+      "channel": 54,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 55,
+      "down_to": 53
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 55,
+    "fields": {
+      "channel": 55,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 56,
+      "down_to": 54
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 56,
+    "fields": {
+      "channel": 56,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 57,
+      "down_to": 55
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 57,
+    "fields": {
+      "channel": 57,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 58,
+      "down_to": 56
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 58,
+    "fields": {
+      "channel": 58,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 59,
+      "down_to": 57
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 59,
+    "fields": {
+      "channel": 59,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 60,
+      "down_to": 58
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 60,
+    "fields": {
+      "channel": 60,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 61,
+      "down_to": 59
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 61,
+    "fields": {
+      "channel": 61,
+      "background": "someUrl",
+      "geometry": "squarr",
+      "glitchtype": "banana",
+      "audio": "banananana",
+      "text": "anabana",
+      "up_to": 62,
+      "down_to": 60
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 62,
+    "fields": {
+      "channel": 62,
+      "background": "someUrl",
+      "geometry": "someUrl",
+      "glitchtype": "someUrl",
+      "audio": "someUrl",
+      "text": "someUrl",
+      "up_to": 63,
+      "down_to": 61
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 63,
+    "fields": {
+      "channel": 63,
+      "background": "asd",
+      "geometry": "awsd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 64,
+      "down_to": 62
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 64,
+    "fields": {
+      "channel": 64,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 65,
+      "down_to": 63
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 65,
+    "fields": {
+      "channel": 65,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 66,
+      "down_to": 64
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 66,
+    "fields": {
+      "channel": 66,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 67,
+      "down_to": 65
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 67,
+    "fields": {
+      "channel": 67,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 68,
+      "down_to": 66
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 68,
+    "fields": {
+      "channel": 68,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 69,
+      "down_to": 67
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 69,
+    "fields": {
+      "channel": 69,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 70,
+      "down_to": 68
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 70,
+    "fields": {
+      "channel": 70,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 71,
+      "down_to": 69
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 71,
+    "fields": {
+      "channel": 71,
+      "background": "someUrl",
+      "geometry": "squarr",
+      "glitchtype": "banana",
+      "audio": "banananana",
+      "text": "anabana",
+      "up_to": 72,
+      "down_to": 70
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 72,
+    "fields": {
+      "channel": 72,
+      "background": "someUrl",
+      "geometry": "someUrl",
+      "glitchtype": "someUrl",
+      "audio": "someUrl",
+      "text": "someUrl",
+      "up_to": 73,
+      "down_to": 71
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 73,
+    "fields": {
+      "channel": 73,
+      "background": "asd",
+      "geometry": "awsd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 74,
+      "down_to": 72
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 74,
+    "fields": {
+      "channel": 74,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 75,
+      "down_to": 73
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 75,
+    "fields": {
+      "channel": 75,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 76,
+      "down_to": 74
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 76,
+    "fields": {
+      "channel": 76,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 77,
+      "down_to": 75
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 77,
+    "fields": {
+      "channel": 77,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 78,
+      "down_to": 76
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 78,
+    "fields": {
+      "channel": 78,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 79,
+      "down_to": 77
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 79,
+    "fields": {
+      "channel": 79,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 80,
+      "down_to": 78
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 80,
+    "fields": {
+      "channel": 80,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 81,
+      "down_to": 79
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 81,
+    "fields": {
+      "channel": 81,
+      "background": "someUrl",
+      "geometry": "squarr",
+      "glitchtype": "banana",
+      "audio": "banananana",
+      "text": "anabana",
+      "up_to": 82,
+      "down_to": 80
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 82,
+    "fields": {
+      "channel": 82,
+      "background": "someUrl",
+      "geometry": "someUrl",
+      "glitchtype": "someUrl",
+      "audio": "someUrl",
+      "text": "someUrl",
+      "up_to": 83,
+      "down_to": 81
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 83,
+    "fields": {
+      "channel": 83,
+      "background": "asd",
+      "geometry": "awsd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 84,
+      "down_to": 82
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 84,
+    "fields": {
+      "channel": 84,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 85,
+      "down_to": 83
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 85,
+    "fields": {
+      "channel": 85,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 86,
+      "down_to": 84
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 86,
+    "fields": {
+      "channel": 86,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 87,
+      "down_to": 85
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 87,
+    "fields": {
+      "channel": 87,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 88,
+      "down_to": 86
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 88,
+    "fields": {
+      "channel": 88,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 89,
+      "down_to": 87
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 89,
+    "fields": {
+      "channel": 89,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 90,
+      "down_to": 88
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 90,
+    "fields": {
+      "channel": 90,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 91,
+      "down_to": 89
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 91,
+    "fields": {
+      "channel": 91,
+      "background": "someUrl",
+      "geometry": "squarr",
+      "glitchtype": "banana",
+      "audio": "banananana",
+      "text": "anabana",
+      "up_to": 92,
+      "down_to": 90
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 92,
+    "fields": {
+      "channel": 92,
+      "background": "someUrl",
+      "geometry": "someUrl",
+      "glitchtype": "someUrl",
+      "audio": "someUrl",
+      "text": "someUrl",
+      "up_to": 93,
+      "down_to": 91
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 93,
+    "fields": {
+      "channel": 93,
+      "background": "asd",
+      "geometry": "awsd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 94,
+      "down_to": 92
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 94,
+    "fields": {
+      "channel": 94,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 95,
+      "down_to": 93
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 95,
+    "fields": {
+      "channel": 95,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 96,
+      "down_to": 94
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 96,
+    "fields": {
+      "channel": 96,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 97,
+      "down_to": 95
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 97,
+    "fields": {
+      "channel": 97,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 98,
+      "down_to": 96
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 98,
+    "fields": {
+      "channel": 98,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 99,
+      "down_to": 97
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 99,
+    "fields": {
+      "channel": 99,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 100,
+      "down_to": 98
+    }
+  },
+  {
+    "model": "adventure.channel",
+    "pk": 100,
+    "fields": {
+      "channel": 100,
+      "background": "asd",
+      "geometry": "asd",
+      "glitchtype": "asd",
+      "audio": "asd",
+      "text": "asd",
+      "up_to": 1,
+      "down_to": 99
     }
   }
 ]
