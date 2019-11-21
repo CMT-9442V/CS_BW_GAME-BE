@@ -39,7 +39,7 @@ class Channel(models.Model):
     # def __str__(self):
     #     return f"Channel:{self.channel}, Background:{self.background}, geometry:{self.geometry}, glitchtype:{self.glitchtype}, audio:{self.audio}"
     def to_dict(self):
-      return {"channel":self.channel, "background":self.background, "geometry":self.geometry, "glitchtype":self.glitchtype, "audio":self.audio}
+      return {"channel":self.channel, "background":self.background, "geometry":self.geometry, "glitchtype":self.glitchtype, "audio":self.audio, "up_to":self.up_to, "down_to":self.down_to}
 
 class Player(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)

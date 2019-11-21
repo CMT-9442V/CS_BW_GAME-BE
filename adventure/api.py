@@ -48,6 +48,7 @@ def channels(request):
     #     result += channel.__repr__() + ', '
     # return JsonResponse({'channels': result}, safe=True)
     results = [obj.to_dict() for obj in channels]
+    results.sort(key=lambda obj: obj["channel"])
     # print("------------------STUFF------------------", results)
     jsdata = json.dumps({"results": results})
     return JsonResponse(results, safe=False)
