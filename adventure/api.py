@@ -13,33 +13,11 @@ import json
 @csrf_exempt
 @api_view(["GET"])
 def initialize(request):
-    # user = request.user
-    # player = user.player
-    # player_id = player.id
-    # uuid = player.uuid
-    # room = player.room()
-    # players = room.playerNames(player_id)
-    channel=Channel.objects.get(channel=00)
-    return JsonResponse({'id': channel.id, 'channel':channel.channel, 'background': channel.background, 'audio': channel.audio, 'geometry': channel.geometry, 'glitchtype': channel.glitchtype, 'text':channel.text, 'error_msg':""}, safe=True)
 
-# @api_view(["GET"])
-# def channels(request):
-#     channels = Channel.objects.all()
-#     result = {
-#       "channel": 0,
-#       "background": "someUrl",
-#       "geometry": "squarr",
-#       "glitchtype": "banana",
-#       "audio": "banananana",
-#       "text": "anabana",
-#       "up_to": 2,
-#       "down_to": 0
-#     }
-#     # for channel in channels:
-#     #     result.append(chann)
-#     # json.loads(result)
-#     return JsonResponse(result, safe=True)
-# ==========================================
+    channel=Channel.objects.get(channel=1).to_dict()
+    return JsonResponse(channel, safe=False)
+
+
 @api_view(["GET"])
 def channels(request):
     channels = Channel.objects.all()
