@@ -4,9 +4,9 @@
     "pk": 1,
     "fields": {
       "channel": 1,
-      "background": "someUrl",
+      "background": "https://raw.githubusercontent.com/CMT-9442V/CMT-FE/master/src/Components/assets/images/nosignal3.jpg",
       "geometry": "someUrl",
-      "glitchtype": "someUrl",
+      "glitchtype": "static",
       "audio": "someUrl",
       "text": "someUrl",
       "up_to": 2,
@@ -18,9 +18,9 @@
     "pk": 2,
     "fields": {
       "channel": 2,
-      "background": "someUrl",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "someUrl",
-      "glitchtype": "someUrl",
+      "glitchtype": "DefaultGlitchTextl",
       "audio": "someUrl",
       "text": "someUrl",
       "up_to": 3,
@@ -32,11 +32,11 @@
     "pk": 3,
     "fields": {
       "channel": 3,
-      "background": "asd",
+      "background": "https://raw.githubusercontent.com/CMT-9442V/CMT-FE/master/src/Components/assets/images/nosignal12.png",
       "geometry": "awsd",
-      "glitchtype": "asd",
+      "glitchtype": "DefaultGlitchText",
       "audio": "asd",
-      "text": "asd",
+      "text": "HELP US",
       "up_to": 4,
       "down_to": 2
     }
@@ -46,9 +46,9 @@
     "pk": 4,
     "fields": {
       "channel": 4,
-      "background": "asd",
+      "background": "https://raw.githubusercontent.com/CMT-9442V/CMT-FE/master/src/Components/assets/images/nosignal3.jpg",
       "geometry": "asd",
-      "glitchtype": "asd",
+      "glitchtype": "static",
       "audio": "asd",
       "text": "asd",
       "up_to": 5,
@@ -60,9 +60,9 @@
     "pk": 5,
     "fields": {
       "channel": 5,
-      "background": "asd",
+      "background": "https://raw.githubusercontent.com/CMT-9442V/CMT-FE/master/src/Components/assets/images/nosignal10.jpg",
       "geometry": "asd",
-      "glitchtype": "asd",
+      "glitchtype": "ComicBook",
       "audio": "asd",
       "text": "asd",
       "up_to": 6,
@@ -74,11 +74,11 @@
     "pk": 6,
     "fields": {
       "channel": 6,
-      "background": "asd",
+      "background": "https://raw.githubusercontent.com/CMT-9442V/CMT-FE/master/src/Components/assets/images/nosignal11.jpg",
       "geometry": "asd",
-      "glitchtype": "asd",
+      "glitchtype": "DefaultGlitchText",
       "audio": "asd",
-      "text": "asd",
+      "text": "what is hope",
       "up_to": 7,
       "down_to": 5
     }
@@ -88,9 +88,9 @@
     "pk": 7,
     "fields": {
       "channel": 7,
-      "background": "asd",
+      "background": "https://raw.githubusercontent.com/CMT-9442V/CMT-FE/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "asd",
-      "glitchtype": "asd",
+      "glitchtype": "static",
       "audio": "asd",
       "text": "asd",
       "up_to": 8,
@@ -102,9 +102,9 @@
     "pk": 8,
     "fields": {
       "channel": 8,
-      "background": "asd",
+      "background": "https://raw.githubusercontent.com/CMT-9442V/CMT-FE/master/src/Components/assets/images/nosignal4.jpg",
       "geometry": "asd",
-      "glitchtype": "asd",
+      "glitchtype": "static",
       "audio": "asd",
       "text": "asd",
       "up_to": 9,
@@ -116,9 +116,9 @@
     "pk": 9,
     "fields": {
       "channel": 9,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "asd",
-      "glitchtype": "asd",
+      "glitchtype": "static",
       "audio": "asd",
       "text": "asd",
       "up_to": 10,
@@ -130,9 +130,9 @@
     "pk": 10,
     "fields": {
       "channel": 10,
-      "background": "asd",
+      "background": "https://raw.githubusercontent.com/CMT-9442V/CMT-FE/master/src/Components/assets/images/nosignal4.jpg",
       "geometry": "asd",
-      "glitchtype": "asd",
+      "glitchtype": "static",
       "audio": "asd",
       "text": "asd",
       "up_to": 11,
@@ -144,9 +144,9 @@
     "pk": 11,
     "fields": {
       "channel": 11,
-      "background": "someUrl",
+      "background": "https://raw.githubusercontent.com/CMT-9442V/CMT-FE/master/src/Components/assets/images/NoSignal.jpg",
       "geometry": "squarr",
-      "glitchtype": "banana",
+      "glitchtype": "static",
       "audio": "banananana",
       "text": "anabana",
       "up_to": 12,
@@ -158,11 +158,11 @@
     "pk": 12,
     "fields": {
       "channel": 12,
-      "background": "someUrl",
+      "background": "https://raw.githubusercontent.com/CMT-9442V/CMT-FE/master/src/Components/assets/images/nosignal6.jpg",
       "geometry": "someUrl",
-      "glitchtype": "someUrl",
+      "glitchtype": "DefaultTextGlitch",
       "audio": "someUrl",
-      "text": "someUrl",
+      "text": "SAVE US",
       "up_to": 13,
       "down_to": 12
     }
@@ -172,7 +172,7 @@
     "pk": 13,
     "fields": {
       "channel": 13,
-      "background": "asd",
+      "background": "https://raw.githubusercontent.com/CMT-9442V/CMT-FE/master/src/Components/assets/images/nosignal9.jpg",
       "geometry": "awsd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -186,9 +186,9 @@
     "pk": 14,
     "fields": {
       "channel": 14,
-      "background": "asd",
+      "background": "https://raw.githubusercontent.com/CMT-9442V/CMT-FE/master/src/Components/assets/images/nosignal7.jpg",
       "geometry": "asd",
-      "glitchtype": "asd",
+      "glitchtype": "static",
       "audio": "asd",
       "text": "asd",
       "up_to": 15,
@@ -200,9 +200,9 @@
     "pk": 15,
     "fields": {
       "channel": 15,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "asd",
-      "glitchtype": "asd",
+      "glitchtype": "static",
       "audio": "asd",
       "text": "asd",
       "up_to": 16,
@@ -284,7 +284,7 @@
     "pk": 21,
     "fields": {
       "channel": 21,
-      "background": "someUrl",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "squarr",
       "glitchtype": "banana",
       "audio": "banananana",
@@ -396,7 +396,7 @@
     "pk": 29,
     "fields": {
       "channel": 29,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -480,7 +480,7 @@
     "pk": 35,
     "fields": {
       "channel": 35,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -550,7 +550,7 @@
     "pk": 40,
     "fields": {
       "channel": 40,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal9.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -564,7 +564,7 @@
     "pk": 41,
     "fields": {
       "channel": 41,
-      "background": "someUrl",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "squarr",
       "glitchtype": "banana",
       "audio": "banananana",
@@ -634,7 +634,7 @@
     "pk": 46,
     "fields": {
       "channel": 46,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal9.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -648,7 +648,7 @@
     "pk": 47,
     "fields": {
       "channel": 47,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -690,7 +690,7 @@
     "pk": 50,
     "fields": {
       "channel": 50,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal9.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -732,7 +732,7 @@
     "pk": 53,
     "fields": {
       "channel": 53,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "awsd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -746,7 +746,7 @@
     "pk": 54,
     "fields": {
       "channel": 54,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal9.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -802,7 +802,7 @@
     "pk": 58,
     "fields": {
       "channel": 58,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -816,7 +816,7 @@
     "pk": 59,
     "fields": {
       "channel": 59,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal9.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -886,7 +886,7 @@
     "pk": 64,
     "fields": {
       "channel": 64,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -900,7 +900,7 @@
     "pk": 65,
     "fields": {
       "channel": 65,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal9.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -956,7 +956,7 @@
     "pk": 69,
     "fields": {
       "channel": 69,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -984,7 +984,7 @@
     "pk": 71,
     "fields": {
       "channel": 71,
-      "background": "someUrl",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal9.jpg",
       "geometry": "squarr",
       "glitchtype": "banana",
       "audio": "banananana",
@@ -1082,7 +1082,7 @@
     "pk": 78,
     "fields": {
       "channel": 78,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal9.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -1096,7 +1096,7 @@
     "pk": 79,
     "fields": {
       "channel": 79,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -1152,7 +1152,7 @@
     "pk": 83,
     "fields": {
       "channel": 83,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "awsd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -1166,7 +1166,7 @@
     "pk": 84,
     "fields": {
       "channel": 84,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal9.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -1222,7 +1222,7 @@
     "pk": 88,
     "fields": {
       "channel": 88,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -1250,9 +1250,9 @@
     "pk": 90,
     "fields": {
       "channel": 90,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "asd",
-      "glitchtype": "asd",
+      "glitchtype": "ComicBookNoGeo",
       "audio": "asd",
       "text": "asd",
       "up_to": 91,
@@ -1264,7 +1264,7 @@
     "pk": 91,
     "fields": {
       "channel": 91,
-      "background": "someUrl",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal9.jpg",
       "geometry": "squarr",
       "glitchtype": "banana",
       "audio": "banananana",
@@ -1306,7 +1306,7 @@
     "pk": 94,
     "fields": {
       "channel": 94,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "asd",
       "glitchtype": "asd",
       "audio": "asd",
@@ -1334,9 +1334,9 @@
     "pk": 96,
     "fields": {
       "channel": 96,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal12.png",
       "geometry": "asd",
-      "glitchtype": "asd",
+      "glitchtype": "ComicNoGeo",
       "audio": "asd",
       "text": "asd",
       "up_to": 97,
@@ -1348,9 +1348,9 @@
     "pk": 97,
     "fields": {
       "channel": 97,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal11.jpg",
       "geometry": "asd",
-      "glitchtype": "asd",
+      "glitchtype": "CreepyLightText",
       "audio": "asd",
       "text": "asd",
       "up_to": 98,
@@ -1362,9 +1362,9 @@
     "pk": 98,
     "fields": {
       "channel": 98,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "asd",
-      "glitchtype": "asd",
+      "glitchtype": "static",
       "audio": "asd",
       "text": "asd",
       "up_to": 99,
@@ -1376,9 +1376,9 @@
     "pk": 99,
     "fields": {
       "channel": 99,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal9.jpg",
       "geometry": "asd",
-      "glitchtype": "asd",
+      "glitchtype": "ComicBook",
       "audio": "asd",
       "text": "asd",
       "up_to": 100,
@@ -1390,9 +1390,9 @@
     "pk": 100,
     "fields": {
       "channel": 100,
-      "background": "asd",
+      "background": "https://github.com/CMT-9442V/CMT-FE/blob/master/src/Components/assets/images/nosignal8.jpg",
       "geometry": "asd",
-      "glitchtype": "asd",
+      "glitchtype": "static",
       "audio": "asd",
       "text": "asd",
       "up_to": 1,
